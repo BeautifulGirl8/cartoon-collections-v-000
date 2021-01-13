@@ -1,3 +1,4 @@
+require 'pry'
 
 def roll_call_dwarves(dwarves)# code an argument here
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
@@ -5,6 +6,7 @@ dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 hash = Hash.new
 dwarves.each_with_index { |index, item|
   hash[index] = item
+  binding.pry
 }
 puts hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 
