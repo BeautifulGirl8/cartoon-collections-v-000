@@ -50,6 +50,11 @@ end
 end
 
 def find_the_cheese(array)
-  array.include?("cheddar" || "gouda" || "camembert")
-
+  cheese = ["gouda", "cheddar", "camembert"]
+  gotcheese = Array.new
+  if array.include? {|food| cheese.include?(array)}
+    gotcheese << food
+return gotcheese
+else
+  return nil 
 end
