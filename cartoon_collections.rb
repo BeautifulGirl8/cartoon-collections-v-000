@@ -8,7 +8,7 @@ dwarves.each_with_index { |index, item|
   hash[index] = item
   binding.pry
 }
-puts hash   
+puts hash
 
 
 end
@@ -19,7 +19,7 @@ end
 def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
-  
+
 end
 
 def long_planeteer_calls# code an argument here
