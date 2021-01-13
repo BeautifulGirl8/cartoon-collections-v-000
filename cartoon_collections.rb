@@ -33,7 +33,7 @@ newarray = Array.new
 array.each {
   |name|
 name.capitalize!
-name[name.length] = "s"
+name[name.length] = "!"
 
 newarray << name
 }
