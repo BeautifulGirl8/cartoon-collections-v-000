@@ -48,5 +48,3 @@ if array.none? {|element| element > 3}
   return false
 end
 end
-
-
