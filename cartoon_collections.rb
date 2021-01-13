@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)# code an argument here
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 hash = Hash.new
-dwarves.each_with_index { |item, index|
+dwarves.each_with_index { |index, item|
   hash[item] = index
 }
 puts hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
