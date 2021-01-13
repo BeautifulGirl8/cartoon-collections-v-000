@@ -7,7 +7,7 @@ dwarves.each_with_index { |item, index|
   hash[item] = index
 }
 hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
-}
+
 
 end
 
