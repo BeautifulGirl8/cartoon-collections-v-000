@@ -50,6 +50,6 @@ end
 end
 
 def find_the_cheese(array)
-  array.include?("chedar")
+  array.include?("cheddar")
 
 end
