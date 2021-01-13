@@ -29,7 +29,7 @@ end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-newarray = Array.new 
+newarray = Array.new
 planeteer_calls.each {
   |name|
 name.capitalize
