@@ -47,7 +47,7 @@ if a.select {|element| element.length > 4}
 else
   return false
 end
-end 
+end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
