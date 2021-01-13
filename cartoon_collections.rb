@@ -48,3 +48,7 @@ else
   return false
 end
 end
+
+def fine_the_cheese(array)
+  array.include?("gouda" || "chedar" || "camembert")
+end
