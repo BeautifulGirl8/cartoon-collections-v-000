@@ -51,7 +51,6 @@ end
 
 def find_the_cheese(array)
   cheeses = ["gouda", "cheddar", "camembert"]
-  gotcheese = Array.new
-  array.find {|food| Cheese.include?(array)}
+  array.detect {|food| Cheese.include?(array)}
 
 end
