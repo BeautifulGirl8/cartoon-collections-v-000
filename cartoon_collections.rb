@@ -32,7 +32,7 @@ def summon_captain_planet(array)# code an argument here
 newarray = Array.new
 array.each {
   |name|
-name.capitalize
+name.capitalize!
 name[name.length] = "s"
 
 newarray << name
