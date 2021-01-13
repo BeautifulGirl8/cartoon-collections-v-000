@@ -2,12 +2,11 @@
 def roll_call_dwarves(dwarves)# code an argument here
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
-dawrves.each_with_index {
-  i = 0
-    while dwarf < dwarves.length
-     |dwarf| puts "#{i+ 1}" + "#{dwarf}"
-      i += 1 }
-    end
+hash = Hash.new
+dwarves.each_with_index { |item, index|
+  hash[item] = index
+}
+hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 }
 
 end
