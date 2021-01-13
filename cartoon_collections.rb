@@ -14,12 +14,31 @@ puts hash
 end
 
 
+def kesha_maker(array)
+
+  newarray = Array.new
+  array.each {
+    |name|
+
+name[2] = "$"
+newarray << name
+}
+return newarray
+end
 
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+newarray = Array.new 
+planeteer_calls.each {
+  |name|
+name.capitalize
+name[name.length] = "s"
 
-
+newarray << name
+}
+return newarray
+end
 end
 
 def long_planeteer_calls# code an argument here
