@@ -27,10 +27,10 @@ return newarray
 end
 
 
-def summon_captain_planet(planeteer_calls)# code an argument here
-  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+def summon_captain_planet(array)# code an argument here
+
 newarray = Array.new
-planeteer_calls.each {
+array.each {
   |name|
 name.capitalize
 name[name.length] = "s"
