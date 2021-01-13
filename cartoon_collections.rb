@@ -56,5 +56,5 @@ def find_the_cheese(array)
     gotcheese << food
 return gotcheese
 else
-  return nil 
+  return nil
 end
