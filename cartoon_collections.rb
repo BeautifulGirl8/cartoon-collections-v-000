@@ -4,7 +4,7 @@ dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 hash = Hash.new
 dwarves.each_with_index { |index, item|
-  hash[item] = index
+  hash[index] = item
 }
 puts hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 
